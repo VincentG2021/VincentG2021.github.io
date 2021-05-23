@@ -1,0 +1,163 @@
+/* Typography */
+
+html {
+	font-family: 'MuseoModerno', cursive;
+	font-variant: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'MuseoModerno', cursive;
+	font-variant: 'Roboto', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social i:hover {
+    background-color: #da4f08;
+	border-radius: 50%;
+}
+
+.scroll {
+	padding: 15px;
+}
+
+.scroll i:hover {
+	background-color: #da4f0f;
+	border-radius: 50%;
+}
+
+.me {
+	max-width: 1400px;
+	height: auto;
+}
+
+.pic{
+	border-radius: 10%;
+	padding: 2%;
+}
+
+.me-photo{
+	float: right;
+	border: thin #c0c0c0 solid;
+	border-radius: 10%;
+	padding: 2%;
+	margin: auto;
+}
+
+figcaption {
+	background-color: #222;
+	border: thin #c0c0c0 solid;
+	border-radius: 35%;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+
+figcaption:hover {
+background-color: #da4f0f;
+}
+
+.me-text{
+	height: auto;
+	/* text-decoration: none !important; */
+}
+
+.sandbox{
+	height:auto
+}
+
+.logo-becode{
+	border-radius: 50%;
+	box-shadow: -5px 10px 15px 2px black;
+}
+
+.logo-becode{
+	animation:bounce 0.9s infinite;
+}
+
+@keyframes bounce {
+	10%{
+		height: 1em;
+		width: 1em;
+	}
+	50%{
+		height: 4em;
+		width: 4em;
+		transform:translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+	
+}
+
+.logo-becode:hover {
+    background-color: #da4f08;
+	border-radius: 50%;
+}
+
+
+.me-thanks{
+	clear: both;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
